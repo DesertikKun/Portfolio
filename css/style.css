@@ -109,3 +109,64 @@
 .history__title::before{
     margin-left: auto;
 }
+/* ****************** history end *******************/
+.study{
+    background: var(--dark__light);
+    padding: 15px 0;
+}
+.study__title{
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 24px;
+    font-style: var(--m);
+    font-weight: 700;
+    margin-bottom: 2`0px;
+}
+
+.study__slider-prev,.study__slider-next{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: var(--yell);
+}
+.study__slider-prev{
+    left: 0;
+}
+.study__slider-next{
+    right: 0;
+}
+.study__slider-prev i::after,.study__slider-next i::after{
+color: #a5a6a6;
+
+}
+.study__slider-prev i:hover{
+    color: var(--yell);
+}
+.study__slider-next i:hover{
+    color: var(--yell);
+}
+.study__title_color-yellow{
+    color: var(--yell);
+}
+
+.study__desc{
+    color: var(--white);
+    font-size: 18px;
+    text-align: justify;
+     
+}
+.study__img{
+    border-radius: 6px;
+    max-height: 370px;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+
+
+ 

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/icon.css">
     <title>Моё Портфолио</title>
 </head>
 <body>
@@ -46,34 +47,75 @@
   </header>  
   <!-- ************** Header End **************-->
   <main>
-<section class="history">
-  <div class="container">
-    <div class="row justify-content-center flex-column align-items-center">
-      <div class="col-auto">
-        <h2 class="history__title">История</h2>
-      </div>
-      <div class="col-11">
-        <p class="history__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </p>
+  <section class="history">
+    <div class="container">
+      <div class="row justify-content-center flex-column align-items-center">
+        <div class="col-auto">
+          <h2 class="history__title">История</h2>
+        </div>
+        <div class="col-11">
+          <p class="history__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </p>
+        </div>
       </div>
     </div>
+  </section>
+  <section class="study">
+    <div class="container">
+    <div id="study__slider" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-xl-4"><img class="study__img" src="img/slider__img.jpg" alt=""></div>
+            <div class="col-xl-6">
+              <h3 class="study__title"><span class="study__title_color-yellow">Oбучение </span class="study__title_color-yellow">в PROWEB</h3>
+              <p class="study__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-xl-4"><img class="study__img" src="img/slider__img.jpg" alt=""></div>
+            <div class="col-xl-6">
+              <h3 class="study__title"><span class="study__title_color-yellow">Oбучение </span>в PROWEB</h3>
+              <p class="study__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-xl-4"><img class="study__img" src="img/slider__img.jpg" alt=""></div>
+            <div class="col-xl-6">
+              <h3 class="study__title"><span class="study__title_color-yellow">Oбучение </span>в PROWEB</h3>
+              <p class="study__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="study__slider-prev" href="#study__slider" role="button" data-slide="prev">
+        <i class="fad fa-chevron-left"></i>
+      </a>
+      <a class="study__slider-next" href="#study__slider" role="button" data-slide="next">
+        <i class="fad fa-chevron-right"></i>
+      </a>
+    </div>
   </div>
-</section>
-  </main>
-      <script src="js/jq.js"></script>
-      <script src="js/poper.js"></script>
-      <script src="js/bootstrap.js"></script>
-</body>
-</html>
-<!-- 
-    * git init - инициализирует проект
-    * git config user.email '' - регистрирует емаил пользователя который редактирует  код
-    * git config user.name '' -регистрирует имя пользователя который редактирует  код
-    * git comfig gui.emconding utf-8 -адекватное отображение кирилицы
-    * git add index.html или git add . -добавляет элементы в отслеживаемую зону
-    * git commit -m 'сообщение' - сохроняет отслеживаемую зону
-    * gitk - открывает проводник репозитория 
-    * git status - показывает отслеживаемую зону
-    * ssh-keygen - создать безопасный ключ соеденения к репозиторию
-    * git push - затолкать в удалённый репозиторий
-    * git remote add origin *путь удалённого подключения*(образец : git remote add origin git@github.com:DesertikKun/Portfolio.git)- путь удалённого подключения
- -->    
+  </section>
+    </main>
+        <script src="js/jq.js"></script>
+        <script src="js/poper.js"></script>
+        <script src="js/bootstrap.js"></script>
+  </body>
+  </html>
+  <!-- 
+      * git init - инициализирует проект
+      * git config user.email '' - регистрирует емаил пользователя который редактирует  код
+      * git config user.name '' -регистрирует имя пользователя который редактирует  код
+      * git comfig gui.emconding utf-8 -адекватное отображение кирилицы
+      * git add index.html или git add . -добавляет элементы в отслеживаемую зону
+      * git commit -m 'сообщение' - сохроняет отслеживаемую зону
+      * gitk - открывает проводник репозитория 
+      * git status - показывает отслеживаемую зону
+      * ssh-keygen - создать безопасный ключ соеденения к репозиторию
+      * git push - затолкать в удалённый репозиторий
+      * git remote add origin *путь удалённого подключения*(образец : git remote add origin git@github.com:DesertikKun/Portfolio.git)- путь удалённого подключения
+  -->    
